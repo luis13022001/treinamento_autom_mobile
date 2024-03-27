@@ -11,8 +11,8 @@ E verifico que estou na página inicial
 Então verifico o saldo da conta
     Click Element       ${ver_saldo}
 
-    Wait Until Element Is Visible   ${saldo1}  10
-    Element Text Should Be          ${saldo1}   R$ 5.500,00
+    Wait Until Element Is Visible   ${saldo2}  10
+    Element Text Should Be          ${saldo2}   R$ 5.500,00
 
     Fechar app
 Dado que abro o App
