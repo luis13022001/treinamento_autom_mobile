@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.9.13 on win32)" generated="2024-03-19T03:05:23.280306" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Users\Acer\Documents\treinamento-automacao-mobile\Tests\test.robot">
+<test id="s1-t1" name="Cenário 1: Validar o saldo em conta" line="6">
+<kw name="Dado que abro o App" owner="saldoSteps">
+<kw name="Abrir aplicativo" owner="resource">
+<kw name="Open Application">
+<msg time="2024-03-19T03:05:23.436486" level="FAIL">No keyword with name 'Open Application' found.</msg>
+<arg>http://localhost:4723/wd/hub</arg>
+<arg>automationName=UiAutomator2</arg>
+<arg>platformName=Android</arg>
+<arg>deviceName=luis_teste</arg>
+<arg>app=${APP_PATH}</arg>
+<arg>udid=emulator-5554</arg>
+<status status="FAIL" start="2024-03-19T03:05:23.436486" elapsed="0.000000">No keyword with name 'Open Application' found.</status>
+</kw>
+<doc>Abre o aplicativo usando as configurações fornecidas</doc>
+<status status="FAIL" start="2024-03-19T03:05:23.436486" elapsed="0.000000">No keyword with name 'Open Application' found.</status>
+</kw>
+<status status="FAIL" start="2024-03-19T03:05:23.436486" elapsed="0.000000">No keyword with name 'Open Application' found.</status>
+</kw>
+<kw name="E verifico que estou na página inicial" owner="saldoSteps">
+<status status="NOT RUN" start="2024-03-19T03:05:23.436486" elapsed="0.000000"/>
+</kw>
+<kw name="Então verifico o saldo da conta" owner="saldoSteps">
+<status status="NOT RUN" start="2024-03-19T03:05:23.436486" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-03-19T03:05:23.436486" elapsed="0.000000">No keyword with name 'Open Application' found.</status>
+</test>
+<status status="FAIL" start="2024-03-19T03:05:23.280306" elapsed="0.156180"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-03-19T03:05:23.436486" level="ERROR">Error in file 'C:\Users\Acer\Documents\treinamento-automacao-mobile\Resource\resource.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
+Traceback (most recent call last):
+  File "C:\Users\Acer\AppData\Local\Programs\Python\Python39\lib\site-packages\AppiumLibrary\__init__.py", line 4, in &lt;module&gt;
+    from AppiumLibrary.keywords import *
+  File "C:\Users\Acer\AppData\Local\Programs\Python\Python39\lib\site-packages\AppiumLibrary\keywords\__init__.py", line 9, in &lt;module&gt;
+    from ._touch import _TouchKeywords
+  File "C:\Users\Acer\AppData\Local\Programs\Python\Python39\lib\site-packages\AppiumLibrary\keywords\_touch.py", line 3, in &lt;module&gt;
+    from appium.webdriver.common.touch_action import TouchAction
+PYTHONPATH:
+  C:\Users\Acer\AppData\Local\Programs\Python\Python39\Scripts\robot.exe
+  C:\Users\Acer\AppData\Local\Programs\Python\Python39\python39.zip
+  C:\Users\Acer\AppData\Local\Programs\Python\Python39\DLLs
+  C:\Users\Acer\AppData\Local\Programs\Python\Python39\lib
+  C:\Users\Acer\AppData\Local\Programs\Python\Python39
+  C:\Users\Acer\AppData\Local\Programs\Python\Python39\lib\site-packages</msg>
+</errors>
+</robot>
