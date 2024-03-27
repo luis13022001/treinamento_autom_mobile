@@ -1,4 +1,4 @@
-# treinamento_autom_mobile# Treinamento de Automação Mobile com Robot Framework e Appium
+## Treinamento de Automação Mobile com Robot Framework e Appium
 
 Este repositório contém recursos e exemplos utilizados no treinamento de automação móvel utilizando Robot Framework com Appium.
 
